@@ -1,0 +1,6 @@
+Outside:
+./ptttd 127.0.0.1 22
+
+Wifly side:
+./pttt 127.0.0.1 1234
+ssh -C -o CompressionLevel=9 -D 2345 localhost -p 1234
